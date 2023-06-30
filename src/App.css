@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+header{
+     height: 10vh;
+}
+
+section{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    height: 10vh;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link{
+    box-shadow: none !important;
+}
+
+.App{
+    min-height: 100vh;
+}
+
+
+
+@media (max-width:990px) {
+    header{
+     height: fit-content;   
+    }
+    section .col-lg-6{
+        text-align: center;
+
+    } 
+    footer{
+        padding-top: 30px;
+    }
+    #home-btn{
+        justify-content: center;
+    }
+}
